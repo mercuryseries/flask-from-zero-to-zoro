@@ -1,0 +1,49 @@
+body {
+    background-color: #123;
+    color: #fff;
+}
+
+.wrapper {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    color: #1ce;
+}
+
+nav {
+    text-align: center;
+    background-color: #000;
+    padding: 1em 0;
+    border-top: 4px solid #1ce;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #1ce;
+}
+
+footer {
+    margin: 5em 0;
+}

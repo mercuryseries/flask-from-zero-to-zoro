@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title%}ACME{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body>
+   {% include 'layouts/partials/_nav.html' %}
+    
+    <div class="wrapper">
+        {% block body %}{% endblock %} 
+        
+        {% include 'layouts/partials/_footer.html' %}
+    </div>
+</body>
+</html>

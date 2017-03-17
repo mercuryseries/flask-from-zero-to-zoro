@@ -1,0 +1,9 @@
+{% extends 'layouts/default.html' %}
+
+{% block title%}Error 404{% endblock%}
+
+{% block body %}
+    <h1>Error 404</h1>
+
+    <p>It seems like you're lost. Go back to the <a href="{{ url_for('home') }}">homepage</a>.</p>
+{% endblock body %}
